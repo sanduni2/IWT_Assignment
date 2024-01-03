@@ -1,0 +1,99 @@
+.title-img{
+	width: 90vw;
+	height: 28vw;
+	margin: 2vw 2vw 0px 2vw;
+}
+
+.title{
+	color: white;
+	font-size: 40px;
+	font-weight: 600;
+	text-align: center;
+	background-color: blue;
+	margin-bottom: 5.7vw;
+}
+
+.item-img{
+	height: 29vw;
+	width: 26vw;
+	border-radius: 3px;
+	transition: .5s;
+
+}
+
+.item-container{
+	display: flex;
+	margin: 1.4vw 5.3vw 7vw 5.3vw;
+}
+
+.item-box{
+	height: 29vw;
+	margin: 1.4vw;
+	box-shadow: 5px 5px 20px black;
+	overflow: hidden;
+}
+
+.item-intro{
+	height: 5vw;
+	width: 26vw;
+	padding: 6px;
+	box-sizing: border-box;
+	position: absolute;
+	
+	background: rgb(27, 27, 27, .5);
+	color: white;
+	transition: .5s;
+}
+
+.i1{
+	bottom: -32vw;
+}
+
+.i2{
+	bottom: -71vw;
+}
+
+.item-intro h1{
+	margin: 20px;
+	font-size: 40px;
+}
+
+.item-intro p{
+	font-size: 1.4vw;
+	margin: 1.4vw;
+	visibility: hidden;
+	opacity: 0;
+}
+
+span{
+	font-weight: bold;
+}
+
+.item-box:hover{
+	cursor: pointer;
+}
+
+.item-box:hover .item-intro{
+	height: 15vw;
+	
+	background: black;
+}
+
+.item-box:hover .i1{
+	bottom: -32vw;
+}
+
+.item-box:hover .i2{
+	bottom: -71vw;
+}
+
+
+
+.item-box:hover p{
+	opacity: 1;
+	visibility: visible;
+}
+
+.item-box:hover img{
+	transform: scale(1.1) rotate(-3deg);
+}

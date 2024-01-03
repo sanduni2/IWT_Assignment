@@ -1,0 +1,8 @@
+Special note - 
+
+#The first page of our website is named 'Home.php'
+
+# The code exported from the database is stored in the SQL Database
+folder as 'auto_guard_db.sql'
+
+# Database name is 'auto_guard_db'

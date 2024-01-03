@@ -1,0 +1,410 @@
+.sidebar{
+	position: sticky;
+	width: 7vw;
+	height: 170vh;
+	padding: 0 1.7rem;
+	color: #fff;
+	overflow: hidden;
+	transition: all 0.5s linear;
+	background: #362766;
+	border-radius: 30px;
+}
+
+.sidebar:hover{
+	width: 15vw;
+	transition: 0.5s;
+}
+
+.logo_a{
+	height: 80px;
+	padding: 16px;
+}
+
+.main_a{
+	height: 88%;
+	position: relative;
+	list-style: none;
+	padding: 0;
+}
+
+.main_a li{
+	padding: 1rem;
+	margin: 8px 0;
+	border-radius: 8px;
+	transition: all 0.5s ease-in-out;
+	height: 45px; 
+}
+
+.main_a li:hover,
+.active_a {
+	background-color: #e0e0e058;
+}
+
+.main_a a {
+	color: #fff;
+	font-size: 18px;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	gap: 1.5rem;
+}
+
+.main_a a span {
+	overflow: hidden;
+}
+
+.main_a a i {
+	font-size: 1.2rem;
+}
+
+.header--title{
+	color: #150645;
+	font-size: 25px;
+	font-weight: bold;
+}
+.main--content {
+	position: relative;
+	background: #300737 ;
+	width: 100%
+	padding: 1rem;
+	border-radius: 30px;
+}
+
+.header--wrapper img{
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	border-radius: 50%;
+}
+
+.header--wrapper{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	background: #A89BCD;
+	border-radius: 10px;
+	padding: 10px 2rem;
+	margin-bottom: 1rem;
+	width: 60vw;
+	border-radius: 30px;
+}
+
+.abc{
+	 position: static;
+  display: flex;
+  
+    flex-wrap: wrap;
+  padding: 10px 0;
+  gap: 60px;
+}
+
+.a{
+	 position: absolute;
+  display: flex;
+  margin-left: 22vw;
+    flex-wrap: wrap;
+  padding: 0 0;
+  gap: 60px;
+}
+
+.details_a{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	background: #A89BCD;
+	border-radius: 10px;
+	padding: 10px 2rem;
+	margin-bottom: 1rem;
+	width: 55vw;
+	height: 650px;
+	border-radius: 30px;
+}
+
+.acc_details{
+	padding: 10px;
+	background: #393548;
+	text-align: center;
+	color: white;
+	border-radius: 30px;
+}
+
+.pro_pic{
+	width: 12vw;
+	height: 14vw;
+}
+
+.list_start{
+	background: #393548;
+	border-radius: 30px;
+}
+
+.main--content h3{
+	font-size: 25px;
+	color: white;
+	text-align: center;
+}
+
+.list_start{
+	font-size: 1.5vw;
+}
+
+.account_name{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background: #150645;
+	color: white;
+	padding: 10px;
+	font-size: 20px;
+	margin-right: 35px;
+}
+
+.name_value{
+	margin-left: 25px;
+	padding: 2px;
+	margin-bottom: 25px;
+	color: white;
+	font-size: 18px;
+	margin-right: 35px;
+}
+
+.list_start ul li{
+	list-style: none;
+}
+
+
+
+/*---------------------------------------------------------------------------------------------------------*/
+
+.v_name{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background: #150645;
+	color: white;
+	padding: 10px;
+	font-size: 20px;
+	margin-right: 35px;
+}
+
+.v_value{
+	margin-left: 25px;
+	padding: 2px;
+	margin-bottom: 23px;
+	color: white;
+	font-size: 18px;
+	margin-right: 35px;
+}
+
+.acc_details ul li{
+	list-style: none;
+}
+
+
+/*----------------------------------------------------------------------------------------------------------*/
+
+.table-box{
+	margin: 50px auto;
+}
+
+.table-row{
+	display: table;
+	margin: 10px auto;
+	font-family: sans-serif;
+	background: #8665f7;
+	padding: 12px 0;
+	color: black;
+	font-size: 16px;
+	box-shadow: 0 1px 4px 0 rgba(0,0,50,0.3);
+	text-align: center;
+	font-weight: bold;
+}
+
+.table-cell{
+	display: table-cell;
+	width: 140px;
+	height: 
+	text-align: center;
+	padding: 4px 0;
+	border-right: 1px solid #d6d4d4;
+	vertical-align: middle;
+}
+
+.table-head{
+	background: #0B0038;
+	box-shadow: none;
+	color: #fff;
+	font-weight: 600px;
+	font-size: 20px;
+}
+
+.scroll-bg{
+	width: 650px;
+	background: #C6C6C6;
+
+}
+
+.scroll-div{
+	width: 650px;
+	height: 300px;
+	overflow: hidden;
+	overflow-y: scroll;
+	background: #C6C6C6;
+}
+
+.scroll-object{
+	font-family: cursive;
+	font-size: 15px;
+	padding: 10px;	
+}
+
+.pament-topic{
+	margin-left: 20px;
+	padding: 5px;
+	background: #393548;
+	text-align: center;
+	color: white;
+	border-radius: 30px;
+}
+
+
+.a_btn {
+  position: relative;
+  display: inline-block;
+  padding: 12px 36px;
+  margin :10px 0;
+  color: #fff;
+  text-decoration: none;
+  font-size: 22px;
+  border-radius: 40px;
+  background: linear-gradient(90deg, #A00505 , #A005A0);
+  border: 5px solid #4D175D;
+}
+
+
+/*------------------------------------------------------------------------------------------------*/
+.user--infor{
+	display:flex;
+	align-items:center;
+	gap:1 rem;
+}
+.card--container{
+	background:#E6E6FA;
+	padding:2rem;
+	border-radius:40px;
+	text-align:center;
+}
+
+/* ****tabular section**** */
+.tabular--wrapper{
+	background:#CCCCFF;
+	margin-top:1rem;
+	border-radius:40px;
+	padding:1rem;
+}
+
+
+
+.table--container thead{
+	background:F2D2BD;
+	color:#fff;
+}
+.table--container th{
+	color:#FFFFFF;
+	font-size:20px;
+	background:#5D3FD3;
+	padding:20px;
+	text-align:center;
+}
+.table--container tbody{
+	background:#6082B6;
+}
+.table--container td{
+	color:#FFFFFF;
+	padding:17px;
+	font-size:16px;
+	font-weight:bold;
+	
+}
+.table--container tr:nth-child(even){
+	background:#aaa;
+}
+.table--container tr{
+	transition:all .2s ease-in;
+	cursor:pointer;
+}
+
+/*----------------------------------------------------------------------------------------------------------------*/
+
+.pay_btn {
+  position: relative;
+  display: inline-block;
+  padding: 12px 36px;
+  margin :10px 0;
+  color: #fff;
+  text-decoration: none;
+  font-size: 22px;
+  border-radius: 40px;
+  background: linear-gradient(90deg, #0A0A38 , #1E1EFD);
+  border: 5px solid #560E0E;
+  text-align: center;
+}
+/*account ----------------------------------------------------------------------------------------------------------*/
+
+.change_pass {
+	height: 5px;
+	width: 240px;
+	padding: 10px;
+	margin: 3px 10px 3px 10px;
+}
+
+.change_btn{
+	height: 30px;
+	width: 100px;
+	margin: 5px 10px 5px 10px;
+	background: #7A0707;
+	border-radius: 10px;
+	color: white;
+	font-size: 15px;
+}
+
+.text_M{
+	margin-top: 10px;
+	height: 100px;
+	width: 250px;
+}
+
+.user_photo{
+	height: 150px;
+	width: 370px;
+}
+
+.photo_form{
+	margin-top: 20px;
+	margin-bottom: 50px;
+	padding: 20px 20px 20px 20px;
+}
+
+
+input[type=file]{
+  width: 100%;
+  padding: 10px 15px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  background: #FF7400;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.photo_submit{
+	margin-top: 15px;
+	height: 30px;
+	width: 80px;
+	background: #730000;
+	font-size: 15px;
+	color: white;
+	cursor: pointer;
+	border-radius: 20px;
+}

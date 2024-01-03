@@ -1,0 +1,105 @@
+.tabular--wrapper{
+	background:#CCCCFF;
+	margin-top:1rem;
+	border-radius:40px;
+	padding:1rem;
+}
+
+
+
+.table--container thead{
+	background:#F2D2BD;
+	color:#fff;
+}
+.table--container th{
+	color:#FFFFFF;
+	font-size:14px;
+	background:#5D3FD3;
+	padding:8px;
+	text-align:center;
+}
+.table--container tbody{
+	background:#6082B6;
+}
+.table--container td{
+	color:#FFFFFF;
+	padding:5px;
+	font-size:15px;
+	font-weight:bold;
+	height: 20px;
+	
+}
+.table--container tr:nth-child(even){
+	background:#aaa;
+}
+.table--container tr{
+	transition:all .2s ease-in;
+	cursor:pointer;
+}
+
+.estimate{
+	height: 600px;
+	width: 500px;
+	padding: 20px;
+	
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 30px;
+  margin: 8px 0 50px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #961818;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  width: 100px;
+  margin-left: 35%; 
+  border-radius: 10px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+
+.logincontainer {
+  padding: 20px;
+}
+
+.modal-content {
+  background: linear-gradient(180deg, #e3f7fa , #4a56ff);
+  margin: 5% auto 15% auto;
+  border: 5px solid #03032b;
+  width: 400px; /*form size*/
+  height: 400px;
+}
+
+
+.field{
+	height: 100px;
+	width: 320px;
+	margin: 20px 20px 20px 20px;
+}
+
+
+.admin_topic{
+	background: #3C3C3D;
+	text-align: center;
+	padding: 20px;
+	width: 500px;
+	margin-left: 350px;
+	border-radius: 20px;
+	color: white;
+	font-weight: bold;
+} 
+
